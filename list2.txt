@@ -1,0 +1,6 @@
+sub1	MB-EPI_2iso_Rest_sub1_2.nii.gz	RS0
+sub1	MB-EPI_2iso_Rest_sub1_5.nii.gz	RSH
+sub1	MB-EPI_2iso_Rest_sub1_9.nii.gz	RSL
+sub2	MB-EPI_2iso_Rest_sub2_2.nii.gz	RS0
+sub2	MB-EPI_2iso_Rest_sub2_5.nii.gz	RSL
+sub2	MB-EPI_2iso_Rest_sub2_9.nii.gz	RSH
