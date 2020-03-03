@@ -1,1 +1,17 @@
 ### We include the instructions of how to use the FSL_Cluster_Template
+
+#Prep_bash_cluster.sh
+The bash template to run preprocessing on cluster. Needs .fsf template and list1.txt file to run preprocessing for each participant individually.
+
+#preprocessing.fsf 
+Contains the preprocessing steps - created with FST FEAT for one participant. Then placeholders replaced information specific for that run/participant.
+
+#list1.txt
+Contains information relevant for each participant.
+column1 - subject number
+column2 - file to be preprocessed
+column3 - run information
+column4 - number of volumes (only necessary if runs have diffeent lengths)
+
+#submit script.sh & aroma_script.sh
+Scripts that runs FSL AROMA - a method of noise removal with functional connectivity. Needs list2.txt to run.
